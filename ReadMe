@@ -1,0 +1,80 @@
+
+# Exploratory Data Analysis (EDA) in the Hospitality Industry
+
+This project performs **Exploratory Data Analysis (EDA)** on datasets from the hospitality industry to uncover insights related to booking patterns, room occupancy, and revenue trends.
+
+## Project Overview
+
+The project involves cleaning, transforming, and visualizing data from multiple sources related to hotel bookings, room categories, and revenue. The goal is to generate actionable insights that can help optimize operations and improve business decisions within the hospitality industry.
+
+### Key Insights:
+- Room category occupancy rates
+- Weekend vs weekday occupancy
+- Monthly revenue trends
+- Revenue by hotel type
+
+---
+
+## Datasets Used
+
+- **fact_bookings.csv**: Contains booking details such as property ID, dates, and revenue.
+- **dim_hotels.csv**: Provides hotel information, including category and city.
+- **dim_rooms.csv**: Contains room details and categories.
+- **dim_date.csv**: Contains date-related information such as weekdays and weekends.
+
+---
+
+## Technologies Used
+
+- **Python**: For data analysis and visualization.
+- **Pandas**: For data manipulation.
+- **Matplotlib & Seaborn**: For data visualization.
+- **Jupyter Notebook**: For running and presenting the analysis.
+
+---
+
+## Getting Started
+
+To run this project, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/EDA_in_Hospitality_Domain.git
+   ```
+
+2. Install the required libraries:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Open the Jupyter notebook:
+   ```bash
+   jupyter notebook EDA_Hospitality.ipynb
+   ```
+
+4. Run the notebook cells to perform the analysis.
+
+---
+
+## Insights & Results
+
+- **Room Category Occupancy**: Analyzed average occupancy rates by room category.
+- **Weekend vs Weekday Occupancy**: Found weekend occupancy rates are significantly higher than weekdays.
+- **Revenue Trends**: Visualized monthly revenue fluctuations to identify trends.
+- **Revenue by Hotel Type**: Compared revenue generation across different hotel types.
+
+---
+
+## Future Work
+
+- Build predictive models to forecast bookings and revenue.
+- Implement time series forecasting for better revenue prediction.
+- Develop an interactive dashboard for real-time business decision-making.
+
+---
+
+## Acknowledgements
+
+Special thanks to **Dhaval Patel** and **Codebasics** for providing the tutorials and support throughout the project.
+
+
